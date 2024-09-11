@@ -1,0 +1,9 @@
+openvino
+openvino-tokenizers
+optimum-intel>=1.17.0
+transformers>=4.40.0,<4.42.0
+huggingface-hub>=0.21.3
+torch>=2.1
+gradio>=4.20.0
+peft
+pandas
