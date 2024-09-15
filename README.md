@@ -17,6 +17,9 @@
 
 ## 💫更新
 * [2024/09/11] 开源了基于Qwen2-1.5B-instruct lora指令微调的儿科问诊模型
+* [2024/09/12] 实现GPU web流式推理
+* [2024/09/13] 对模型进行格式转换，使其适用于CPU web流式推理
+* [2024/09/15] 开源了基于Qwen2-0.5B-instruct lora指令微调的儿科问诊模型
 
 ##  🔬开源模型
 
@@ -35,8 +38,15 @@
   <tr>
       <td><center>pediatrics_llm_qa_1.5B</center></td>
       <td><center><a href="https://huggingface.co/Qwen/Qwen2-1.5B-Instruct">Qwen2-1.5B-instruct</a></center></td>
-      <td><center>🤗<a href="https://huggingface.co/jiangnanboy/pediatrics_llm_qa">pediatrics_llm_qa_1.5B</a></center></td>
+      <td><center>🤗<a href="https://huggingface.co/jiangnanboy/pediatrics_llm_qa_1.5B">pediatrics_llm_qa_1.5B</a></center></td>
   </tr>
+  
+  <tr>
+      <td><center>pediatrics_llm_qa_0.5B</center></td>
+      <td><center><a href="https://huggingface.co/Qwen/Qwen2-0.5B-Instruct">Qwen2-0.5B-instruct</a></center></td>
+      <td><center>🤗<a href="https://huggingface.co/jiangnanboy/pediatrics_llm_qa_0.5B">pediatrics_llm_qa_0.5B</a></center></td>
+  </tr>
+  
 </table>
 </body>
 </html>
@@ -60,7 +70,7 @@
    ```bash
    1.训练代码见train_sft/train.py，儿科问答训练语料见data_process/all_data.rar
    
-   2.此模型是经微调后的lora模型，需要将其与Qwen2-1.5B-Instruct模型进行merge，merge代码见：
+   2.此模型是经微调后的lora模型，根据下载的Lora权重与相应的Qwen2模型进行merge合并。merge合并代码见：
    train_sft/merge_lora_weights.py
    ```
 
