@@ -49,7 +49,7 @@
       <td><center>🤗<a href="https://huggingface.co/jiangnanboy/pediatrics_llm_qa2_0.5B">pediatrics_llm_qa2_0.5B</a></center></td>
   </tr>
   
-    <tr>
+  <tr>
       <td><center>pediatrics_llm_qa2.5_0.5B</center></td>
       <td><center><a href="https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct">Qwen2.5-0.5B-instruct</a></center></td>
       <td><center>🤗<a href="https://huggingface.co/jiangnanboy/pediatrics_llm_qa2.5_0.5B">pediatrics_llm_qa2.5_0.5B</a></center></td>
