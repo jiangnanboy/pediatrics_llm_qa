@@ -22,6 +22,7 @@
 * [2024/09/14] 加入gradio web流式推理
 * [2024/09/15] 基于Qwen2-0.5B-instruct lora指令微调的儿科问诊模型
 * [2024/09/22] 基于Qwen2.5-0.5B-instruct lora指令微调的儿科问诊模型
+* [2024/09/26] 基于Qwen2.5-1.5B-instruct lora指令微调的儿科问诊模型
 
 ##  🔬开源模型
 
@@ -53,6 +54,12 @@
       <td><center>pediatrics_llm_qa2.5_0.5B</center></td>
       <td><center><a href="https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct">Qwen2.5-0.5B-instruct</a></center></td>
       <td><center>🤗<a href="https://huggingface.co/jiangnanboy/pediatrics_llm_qa2.5_0.5B">pediatrics_llm_qa2.5_0.5B</a></center></td>
+  </tr>
+  
+  <tr>
+      <td><center>pediatrics_llm_qa2.5_1.5B</center></td>
+      <td><center><a href="https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct">Qwen2.5-1.5B-instruct</a></center></td>
+      <td><center>🤗<a href="https://huggingface.co/jiangnanboy/pediatrics_llm_qa2.5_1.5B">pediatrics_llm_qa2.5_1.5B</a></center></td>
   </tr>
   
 </table>
